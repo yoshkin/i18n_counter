@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "core-js": "*",
+    "regenerator-runtime": "*",
+    "on-change": "*",
+    "i18next": "*"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "*",
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*"
+  }
+}
